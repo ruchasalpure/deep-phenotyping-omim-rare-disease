@@ -1,0 +1,8 @@
+{
+  "agent_id": "deep-phenotyping-omim-rare-disease",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}

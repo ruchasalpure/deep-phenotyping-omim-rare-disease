@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "deep-phenotyping-omim-rare-disease"
+version: "1.0.0"
+category: "healthcare"
+author: "Rucha Salpure"
+description: "Maps complex patient EHR clinical phenotypes to Human Phenotype Ontology (HPO) terms to prioritize pathogenic rare genetic disease variants"
+capabilities:
+  - "hpo-semantic-similarity-scoring"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "hpo-semantic-similarity-scoring"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true
