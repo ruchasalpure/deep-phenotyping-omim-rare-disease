@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: deep-phenotyping-omim-rare-disease
-runtime: python3.11
-entrypoint: agent.py

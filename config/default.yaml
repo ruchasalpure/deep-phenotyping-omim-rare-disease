@@ -1,6 +1,0 @@
-app:
-  name: "deep-phenotyping-omim-rare-disease"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
